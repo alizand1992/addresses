@@ -1,0 +1,38 @@
+$button-bg-color: black;
+$button-txt-color: white;
+$button-hover-color: #2F2F2F;
+$button-hover-txt-color: white;
+$button-clicked-bg-color: white;
+$button-clicked-text-color: black;
+$button-border: 1px solid black;
+
+
+@mixin button-theme() {
+  border: $button-border;
+  background-color: $button-bg-color;
+  color: $button-txt-color;
+  &:hover {
+    background-color: $button-hover-color;
+    color: $button-hover-txt-color;
+  }
+  &:active {
+    background-color: $button-clicked-bg-color;
+    color: $button-clicked-text-color;
+  }
+}
+
+.button {
+  margin: {
+    right: 5px;
+    left: 2px;
+  }
+  padding: {
+    top: 2px;
+    bottom: 2px;
+    left: 10px;
+    right: 10px;
+  }
+  cursor: pointer;
+
+  @include button-theme();
+}

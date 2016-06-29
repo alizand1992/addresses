@@ -1,0 +1,19 @@
+.button {
+  margin-right: 5px;
+  margin-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: black;
+  color: white; }
+  .button:hover {
+    background-color: #2F2F2F;
+    color: white; }
+  .button:active {
+    background-color: white;
+    color: black; }
+
+/*# sourceMappingURL=button.css.map */
