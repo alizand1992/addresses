@@ -1,4 +1,7 @@
 .button {
+  font-size: x-large;
+  text-align: center;
+  display: block;
   margin-right: 5px;
   margin-left: 2px;
   padding-top: 2px;
