@@ -14,4 +14,4 @@ $password = "Ade@li123";
 
 $sql = new mysqli($host, $username, $password, $db_name, $port);
 
-if ($sql->errno) die();
+if ($sql->errno) die($sql->error);
