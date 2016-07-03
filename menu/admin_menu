@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<admin-menu>
+    <menu-item>
+        <label>Profile</label>
+        <link>/php/profile/profile.php</link>
+    </menu-item>
+    <menu-item>
+        <label>Manage Customers</label>
+        <link>/php/manage_customers/manage_customers.php</link>
+    </menu-item>
+    <menu-item>
+        <label>Invoice</label>
+        <link>/php/invoice/invoice.php</link>
+    </menu-item>
+</admin-menu>

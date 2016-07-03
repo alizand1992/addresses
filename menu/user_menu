@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user-menu>
+    <menu-item>
+        <label>HOME</label>
+        <link>/</link>
+        <active>1</active>
+    </menu-item>
+    <menu-item>
+        <label>CONTACT</label>
+        <link>/contact.php</link>
+        <active>1</active>
+    </menu-item>
+    <menu-item>
+        <label>ABOUT</label>
+        <link>/about.php</link>
+        <active>1</active>
+    </menu-item>
+</user-menu>
