@@ -7,22 +7,18 @@
  */
 $hash = $_SESSION['hash'];
 
-$server = $_SERVER['DOCUMENT_ROOT'];
-require_once ($server . "/process/connect.php");
-require_once ($server . "/process/validate_hash.php");
+require_once ($_SERVER['DOCUMENT_ROOT'] . "/includes.php");
 
-$level = 2;
+echo $user_menu_path;
 
-if ($hash_verified)
-    $level = 1;
+$user_menu = file_get_contents($user_menu_path);
 
+echo $user_menu;
 
-$query = "SELECT * FROM `menu` WHERE `active` = 1 AND `level` = ";
+$xmlObj = new SimpleXMLElement($user_menu);
 
-$res = $sql->query($query) or die($sql->errno);
-
-while ($row = $res->fetch_row())
+foreach ($user_menu->{"menu-item"} as $menu)
 {
-    
+    echo $menu->label . "<br/>";
 }
 ?>
