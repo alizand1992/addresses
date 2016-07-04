@@ -10,18 +10,20 @@
 
 <html>
 <head>
-    <!--  Script  -->
+	<title>Site Title</title>
+	<!--  Script  -->
     <script
         src="https://code.jquery.com/jquery-3.0.0.js"
         integrity="sha256-jrPLZ+8vDxt2FnE1zvZXCkCcebI/C8Dt5xyaQBjxQIo="
         crossorigin="anonymous"></script>
     <script src="js/main_adjust.js" type="text/javascript"></script>
+	<script src="js/menu.js" type="text/javascript"></script>
 
     <!--  Stylesheets  -->
     <link rel="stylesheet" type="text/css" href="css/button.css"/>
 
 </head>
-<body onload="adjust_buttons();">
+<body onload="adjust_buttons(); load_menu(<?php echo "'".$_SESSION['hash']."'"; ?>)">
     <div id="top-menu">
         
     </div>

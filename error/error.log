@@ -1,0 +1,19 @@
+[Mon Jul 04 12:19:26.019950 2016] [:error] [pid 28456] [client 127.0.0.1:51726] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8
+[Mon Jul 04 13:46:16.112407 2016] [:error] [pid 28457] [client 127.0.0.1:53880] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8
+[Mon Jul 04 13:46:38.354578 2016] [:error] [pid 28458] [client 127.0.0.1:53890] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8
+[Mon Jul 04 13:47:28.143125 2016] [:error] [pid 28464] [client 127.0.0.1:53900] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8
+[Mon Jul 04 13:48:38.099132 2016] [:error] [pid 28454] [client 127.0.0.1:53906] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8
+[Mon Jul 04 14:01:43.479549 2016] [:error] [pid 28457] [client 127.0.0.1:54012] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/index.php on line 24
+[Mon Jul 04 14:02:17.928165 2016] [:error] [pid 28458] [client 127.0.0.1:54016] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/index.php on line 24
+[Mon Jul 04 14:02:20.221391 2016] [:error] [pid 28464] [client 127.0.0.1:54018] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/index.php on line 24
+[Mon Jul 04 14:02:41.124964 2016] [:error] [pid 28454] [client 127.0.0.1:54022] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/index.php on line 25
+[Mon Jul 04 14:03:01.447257 2016] [:error] [pid 28455] [client 127.0.0.1:54024] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/index.php on line 26
+[Mon Jul 04 14:03:01.537494 2016] [:error] [pid 28455] [client 127.0.0.1:54024] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8, referer: http://addresses.ali/
+[Mon Jul 04 14:04:19.775335 2016] [:error] [pid 28456] [client 127.0.0.1:54032] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/index.php on line 26
+[Mon Jul 04 14:04:19.867993 2016] [:error] [pid 28456] [client 127.0.0.1:54032] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8, referer: http://addresses.ali/
+[Mon Jul 04 14:04:33.377438 2016] [:error] [pid 28457] [client 127.0.0.1:54034] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8
+[Mon Jul 04 14:04:34.642458 2016] [:error] [pid 28457] [client 127.0.0.1:54034] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8, referer: http://addresses.ali/
+[Mon Jul 04 14:04:51.648451 2016] [:error] [pid 32101] [client 127.0.0.1:54036] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/index.php on line 26
+[Mon Jul 04 14:04:51.728441 2016] [:error] [pid 32101] [client 127.0.0.1:54036] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8, referer: http://addresses.ali/
+[Mon Jul 04 14:07:02.704973 2016] [:error] [pid 28464] [client 127.0.0.1:54234] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/index.php on line 26
+[Mon Jul 04 14:07:02.787039 2016] [:error] [pid 28464] [client 127.0.0.1:54234] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8, referer: http://addresses.ali/
