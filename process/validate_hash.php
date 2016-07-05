@@ -15,7 +15,7 @@ $res = $sql->query($query) or die($sql->error);
 $hash_verified = false;
 
 while ($data = $res->fetch_row()) {
-    $gen_hash = sha1 ($data['id'] . $data['user_since'] . $data['username'] . $salt);
+    $gen_hash = sha1 ($data['id'] . $data['user_since'] . $data['username'] . $SALT);
     if ($gen_hash == $hash) {
         $hash_verified = true;
         break;

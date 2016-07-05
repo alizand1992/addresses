@@ -13,6 +13,6 @@ require_once($server . "/process/validate_hash.php");
 
 
 // VARIABLES
-$user_menu_path = $server . "/menu/user_menu.xml";
-$admin_menu_path = $server . "/menu/admin_menu.xml";
-$salt = "VampIreD!ari3s1957Cre@zy";
+$USER_MENU_PATH = $server . "/menu/user_menu.xml";
+$ADMIN_MENU_PATH = $server . "/menu/admin_menu.xml";
+$SALT = "VampIreD!ari3s1957Cre@zy";

@@ -3,13 +3,16 @@
     <menu-item>
         <label>Profile</label>
         <link>/php/profile/profile.php</link>
+        <active>1</active>
     </menu-item>
     <menu-item>
         <label>Manage Customers</label>
         <link>/php/manage_customers/manage_customers.php</link>
+        <active>1</active>
     </menu-item>
     <menu-item>
         <label>Invoice</label>
         <link>/php/invoice/invoice.php</link>
+        <active>1</active>
     </menu-item>
 </admin-menu>
