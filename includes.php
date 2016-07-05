@@ -15,3 +15,4 @@ require_once($server . "/process/validate_hash.php");
 // VARIABLES
 $user_menu_path = $server . "/menu/user_menu.xml";
 $admin_menu_path = $server . "/menu/admin_menu.xml";
+$salt = "VampIreD!ari3s1957Cre@zy";

@@ -5,7 +5,7 @@
  * Date: 6/28/16
  * Time: 6:51 PM
  */
-
+session_start()
 ?>
 
 <html>
@@ -21,9 +21,9 @@
 
     <!--  Stylesheets  -->
     <link rel="stylesheet" type="text/css" href="css/button.css"/>
-
+    <link rel="stylesheet" type="text/css" href="css/top_menu.css"
 </head>
-<body onload="adjust_buttons(); load_menu(<?php echo "'".$_SESSION['hash']."'"; ?>)">
+<body onload=" load_menu(<?php echo "'".$_SESSION['hash']."'"; ?>); adjust_buttons();">
     <div id="top-menu">
         
     </div>

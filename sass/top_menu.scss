@@ -1,1 +1,25 @@
-$bg-color: black
+$bg-color: black;
+$top_menu_height: 45px;
+
+#top-menu {
+  background-color: $bg-color;
+  width: 100%;
+  height: $top_menu_height;
+  vertical-align: middle;
+  padding: {
+    top: 10px;
+  }
+}
+
+.menu-item {
+  float: left;
+}
+
+#profile-item {
+  margin: {
+    right: 10px;
+  };
+  width: 45px;
+  height: 45px;
+  float: right;
+}

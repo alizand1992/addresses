@@ -8,7 +8,7 @@ function adjust_buttons()
         $(".button").each(function () {
             var spanWidth = $(this).first().outerWidth();
             spanWidth += 40;
-            $(this).outerWidth(spanWidth);
+            $(this).css( 'width', spanWidth + 'px');
         });
     });
 }

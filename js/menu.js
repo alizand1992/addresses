@@ -20,5 +20,10 @@ function load_top_menu(hash) {
     })
         .done(function (res) {
             $("#top-menu").append(res);
+            adjust_buttons();
         });
+}
+
+function load_page(link) {
+    window.location.href = link;
 }

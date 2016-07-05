@@ -15,17 +15,21 @@ $xmlObj = new SimpleXMLElement($user_menu);
 
 $menu = "";
 
-foreach ($xmlObj->children() as $menuItem)
-{
+foreach ($xmlObj->children() as $menuItem) {
 	if ($menuItem->active != 1)
 		continue;
 	$menu .=
-		"<div class=\"menu-item\">
-			<a href=\"" . $menuItem->link . "\" target=\"_self\">
-				" . $menuItem->label . "
-			</a>
+		"<div class=\"menu-item button\" onclick=\"load_page('" . $menuItem->link . "');\">
+			<span>" . $menuItem->label . "</span>
 		</div>";
 
+}
+
+if ($hash_verified) {
+	require_once ($server . "/process/menu/load_admin_user_menu.php?hash=" . $hash);
+}
+else {
+	require_once ($server . "/process/menu/load_admin_login.php");
 }
 
 echo $menu;
