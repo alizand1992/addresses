@@ -7,6 +7,7 @@
  */
 
 $hash = $_GET['hash'];
+require_once ($_SERVER['DOCUMENT_ROOT'] . "/includes.php");
 
 $adminMenuFile = file_get_contents($ADMIN_MENU_PATH);
 
