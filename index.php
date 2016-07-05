@@ -24,8 +24,9 @@ session_start()
     <link rel="stylesheet" type="text/css" href="css/top_menu.css"
 </head>
 <body onload=" load_menu(<?php echo "'".$_SESSION['hash']."'"; ?>); adjust_buttons();">
-    <div id="top-menu">
-        
+
+<div id="top-menu">
+    <input type="hidden" id="hash_id" value="<?php echo $_SESSION['hash']; ?>"/>
     </div>
     <div id="top-banner">
 

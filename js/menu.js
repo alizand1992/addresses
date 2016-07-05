@@ -27,3 +27,10 @@ function load_top_menu(hash) {
 function load_page(link) {
     window.location.href = link;
 }
+
+function display_profile_options() {
+    $(document).ready(function () {
+        $("#profile-menu-container").show();
+        adjust_profile_menu_container();
+    });
+}

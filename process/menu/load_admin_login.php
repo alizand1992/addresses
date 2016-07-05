@@ -7,3 +7,4 @@
  */
 
 $loginPage = file_get_contents($LOGIN_PAGE_PATH);
+echo $loginPage;

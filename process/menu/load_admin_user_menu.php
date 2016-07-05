@@ -12,11 +12,7 @@ $adminMenuFile = file_get_contents($ADMIN_MENU_PATH);
 
 $xmlObj = new SimpleXMLElement($adminMenuFile);
 
-$adminMenu =
-	"
-	<div id=\"profile-button\">
-		<img src=\"\" width=\"\" height=\"\"/>
-	</div>";
+$adminMenu = "";
 
 $adminMenu .= "
 	<div id=\"profile-menu-container\">

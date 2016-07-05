@@ -12,3 +12,14 @@ function adjust_buttons()
         });
     });
 }
+
+function adjust_profile_menu_container() {
+    var position = $("#profile-button").offset();
+    position.top += 45;
+    position.left += 45;
+    var right = $(document).width() - position.left;
+    $("#profile-menu-container").css({
+        top: position.top + "px",
+        right: right + "px"
+    });
+}

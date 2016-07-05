@@ -24,6 +24,11 @@ foreach ($xmlObj->children() as $menuItem) {
 		</div>";
 }
 
+$menu .= "
+	<div id=\"profile-button\" onclick=\"display_profile_options();\">
+		<img src=\"images/profile/icon-profile.png\" width=\"45px\" height=\"45px\"/>
+	</div>";
+
 echo $menu;
 
 if ($hash_verified) {

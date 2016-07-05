@@ -2,17 +2,26 @@ $bg-color: black;
 $top_menu_height: 45px;
 
 #top-menu {
+  display: block;
   background-color: $bg-color;
   width: 100%;
   height: $top_menu_height;
   vertical-align: middle;
-  padding: {
-    top: 10px;
-  }
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 .menu-item {
+  padding: {
+    top: 7px;
+    bottom: 9px;
+  }
   float: left;
+  margin: {
+    left: 0px;
+    right: 0px;
+  }
 }
 
 #profile-item {
@@ -22,4 +31,14 @@ $top_menu_height: 45px;
   width: 45px;
   height: 45px;
   float: right;
+}
+
+#profile-button {
+  width: 45px;
+  heigh: 45px;
+  float: right;
+  margin: {
+    right: 10px;
+  }
+  cursor: pointer;
 }
