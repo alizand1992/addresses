@@ -20,8 +20,9 @@ session_start()
 	<script src="js/menu.js" type="text/javascript"></script>
 
     <!--  Stylesheets  -->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/button.css"/>
-    <link rel="stylesheet" type="text/css" href="css/top_menu.css"
+    <link rel="stylesheet" type="text/css" href="css/top_menu.css"/>
 </head>
 <body onload=" load_menu(<?php echo "'".$_SESSION['hash']."'"; ?>); adjust_buttons();">
 

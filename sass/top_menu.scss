@@ -1,5 +1,8 @@
 $bg-color: black;
 $top_menu_height: 45px;
+$profile-menu-border: 1px solid black;
+$profile-menu-padding: 10px;
+$profile-menu-z-index: 1;
 
 #top-menu {
   display: block;
@@ -41,4 +44,12 @@ $top_menu_height: 45px;
     right: 10px;
   }
   cursor: pointer;
+}
+
+#profile-menu-container {
+  display: none;
+  position: absolute;
+  border: $profile-menu-border;
+  padding: $profile-menu-padding;
+  z-index: $profile-menu-z-index;
 }

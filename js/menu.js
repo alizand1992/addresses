@@ -31,6 +31,7 @@ function load_page(link) {
 function display_profile_options() {
     $(document).ready(function () {
         $("#profile-menu-container").show();
+        adjust_buttons();
         adjust_profile_menu_container();
     });
 }

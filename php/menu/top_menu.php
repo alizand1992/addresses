@@ -25,7 +25,9 @@ foreach ($xmlObj->children() as $menuItem) {
 }
 
 $menu .= "
-	<div id=\"profile-button\" onclick=\"display_profile_options();\">
+	<div id=\"profile-button\" 
+		onclick=\"display_profile_options();\"
+		onmouseover=\"display_profile_options();\">
 		<img src=\"images/profile/icon-profile.png\" width=\"45px\" height=\"45px\"/>
 	</div>";
 

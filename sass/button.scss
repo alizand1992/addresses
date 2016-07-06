@@ -39,3 +39,7 @@ $button-border: 1px solid black;
 
     @include button-theme();
 }
+
+.right-button {
+    float: right;
+}

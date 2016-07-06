@@ -1,7 +1,6 @@
 .button {
   font-size: x-large;
   text-align: center;
-  width: 60px;
   display: block;
   margin-right: 5px;
   margin-left: 2px;
@@ -12,12 +11,16 @@
   cursor: pointer;
   border: 1px solid black;
   background-color: black;
-  color: white; }
+  color: white;
+  text-decoration: none; }
   .button:hover {
     background-color: #2F2F2F;
     color: white; }
   .button:active {
     background-color: white;
     color: black; }
+
+.right-button {
+  float: right; }
 
 /*# sourceMappingURL=button.css.map */
