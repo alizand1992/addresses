@@ -360,3 +360,6 @@
 [Wed Jul 06 00:00:13.529097 2016] [:error] [pid 5529] [client 127.0.0.1:54436] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 27
 [Wed Jul 06 00:00:13.529155 2016] [:error] [pid 5529] [client 127.0.0.1:54436] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 30
 [Wed Jul 06 00:00:13.711466 2016] [:error] [pid 5531] [client 127.0.0.1:54444] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8, referer: http://addresses.ali/
+[Tue Jul 12 22:33:39.440367 2016] [:error] [pid 2649] [client 127.0.0.1:55956] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 27
+[Tue Jul 12 22:33:39.444064 2016] [:error] [pid 2649] [client 127.0.0.1:55956] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 30
+[Tue Jul 12 22:33:39.637685 2016] [:error] [pid 2651] [client 127.0.0.1:55968] PHP Notice:  Undefined variable: _SESSION in /home/ali/Dropbox/addresses/php/menu/top_menu.php on line 8, referer: http://addresses.ali/
