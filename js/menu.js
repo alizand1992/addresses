@@ -38,7 +38,10 @@ function display_profile_options() {
 }
 
 function hide_profile_options() {
-    $("#profile-menu-container").fadeOut(125, "linear", testFunc);
+    if (!($("#profile-menu-container").is(":hover") ||
+        $("#profile-button").is(":hover"))) {
+        $("#profile-menu-container").hide();
+    }
 }
 
 function testFunc() {
