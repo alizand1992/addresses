@@ -5,7 +5,14 @@
  * Date: 6/28/16
  * Time: 6:51 PM
  */
-session_start()
+session_start();
+$hash = 0;
+try {
+    $hash = $_SESSION['hash'];
+} catch (exception $e) {
+
+}
+
 ?>
 
 <html>
@@ -18,16 +25,16 @@ session_start()
         crossorigin="anonymous"></script>
     <script src="js/main_adjust.js" type="text/javascript"></script>
 	<script src="js/menu.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 
     <!--  Stylesheets  -->
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/button.css"/>
     <link rel="stylesheet" type="text/css" href="css/top_menu.css"/>
 </head>
-<body onload=" load_menu(<?php echo "'".$_SESSION['hash']."'"; ?>); adjust_buttons();">
-
-<div id="top-menu">
-    <input type="hidden" id="hash_id" value="<?php echo $_SESSION['hash']; ?>"/>
+<body onload="run_website_info(); load_menu(<?php echo "'".$hash."'"; ?>); adjust_buttons();">
+    <div id="top-menu">
+        <input type="hidden" id="hash_id" value="<?php echo $hash; ?>"/>
     </div>
     <div id="top-banner">
 

@@ -32,4 +32,3 @@ CREATE TABLE IF NOT EXISTS `customers`(
     `address_id` INT NOT NULL,
     PRIMARY KEY (`id`)
 );
-

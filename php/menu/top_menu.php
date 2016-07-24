@@ -5,7 +5,8 @@
  * Date: 6/30/16
  * Time: 8:41 PM
  */
-$hash = $_SESSION['hash'];
+session_start();
+$hash = $_POST['hash'];
 
 require_once ($_SERVER['DOCUMENT_ROOT'] . "/includes.php");
 
@@ -27,7 +28,8 @@ foreach ($xmlObj->children() as $menuItem) {
 $menu .= "
 	<div id=\"profile-button\" 
 		onclick=\"display_profile_options();\"
-		onmouseover=\"display_profile_options();\">
+		onmouseover=\"display_profile_options();\"
+		onmouseout=\"hide_profile_options();\">
 		<img src=\"images/profile/icon-profile.png\" width=\"45px\" height=\"45px\"/>
 	</div>";
 

@@ -11,6 +11,7 @@ function load_menu(hash) {
 }
 
 function load_top_menu(hash) {
+
     $.ajax({
         method: "POST",
         url: "/php/menu/top_menu.php",
@@ -34,4 +35,12 @@ function display_profile_options() {
         adjust_buttons();
         adjust_profile_menu_container();
     });
+}
+
+function hide_profile_options() {
+    $("#profile-menu-container").fadeOut(125, "linear", testFunc);
+}
+
+function testFunc() {
+
 }
