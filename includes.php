@@ -21,3 +21,9 @@ $ADMIN_MENU_PATH = $server . "/xml/menu/admin_menu.xml";
 $USER_MENU_PATH = $server . "/xml/menu/user_menu.xml";
 $LOGIN_PAGE_PATH = $server . "/html/login_page.html";
 $SALT = "VampIreD!ari3s1957Cre@zy";
+
+// SUCCESS CODES
+$SUCCESS = 1;
+
+// ERROR CODES
+$USER_EXISTS = 10;
