@@ -1,6 +1,9 @@
 /**
  * Created by ali on 7/4/16.
  */
+// GLOBALS
+var menu_timer = null;
+
 
 function load_menu(hash) {
     if (hash == "")
@@ -38,12 +41,18 @@ function display_profile_options() {
 }
 
 function hide_profile_options() {
-    if (!($("#profile-menu-container").is(":hover") ||
-        $("#profile-button").is(":hover"))) {
-        $("#profile-menu-container").hide();
-    }
+    menu_timer = setTimeout(function () {
+        if (!($("#profile-menu-container").is(":hover") ||
+            $("#profile-button").is(":hover"))) {
+            $("#profile-menu-container").fadeOut(100);
+        }
+    }, 10);
 }
 
-function testFunc() {
 
+function clear_timer() {
+    if (menu_timer) {
+        clearTimeout(menu_timer);
+        menu_timer = null;
+    }
 }

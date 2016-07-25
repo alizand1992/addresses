@@ -10,5 +10,5 @@ function run_website_info() {
         .done(function (xml) {
             $xml = $(xml);
             document.title = $xml.find("title").text();
-    });
+});
 }
