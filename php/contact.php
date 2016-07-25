@@ -33,17 +33,17 @@ try {
     <link rel="stylesheet" type="text/css" href="/css/top_menu.css"/>
 </head>
 <body onload="run_website_info(); load_menu(<?php echo "'".$hash."'"; ?>); adjust_buttons();">
-<div id="top-menu">
-    <input type="hidden" id="hash_id" value="<?php echo $hash; ?>"/>
-</div>
-<div id="top-banner">
+    <div id="top-menu">
+        <input type="hidden" id="hash_id" value="<?php echo $hash; ?>"/>
+    </div>
+    <div id="top-banner">
 
-</div>
-<div id="left-banner">
+    </div>
+    <div id="left-banner">
 
-</div>
-<div id="main-container">
+    </div>
+    <div id="main-container">
 
-</div>
+    </div>
 </body>
 </html>
