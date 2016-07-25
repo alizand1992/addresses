@@ -5,7 +5,7 @@
  * Date: 7/2/16
  * Time: 8:49 PM
  */
-
+session_start();
 // SERVER PATH
 $server = $_SERVER['DOCUMENT_ROOT'];
 
@@ -26,4 +26,5 @@ $SALT = "VampIreD!ari3s1957Cre@zy";
 $SUCCESS = 1;
 
 // ERROR CODES
+$USER_DOES_NOT_EXIST = 5;
 $USER_EXISTS = 10;

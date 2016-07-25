@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user-settings>
+    <user>
+        <hash>0</hash>
+        <redirect>/php/profile.php</redirect>
+        <screen-name></screen-name>
+        <profile-image>/images/profile/icon-profile.png</profile-image>
+    </user>
+</user-settings>
