@@ -7,12 +7,12 @@
     </menu-item>
     <menu-item>
         <label>CONTACT</label>
-        <link>/contact.php</link>
+        <link>/php/contact.php</link>
         <active>1</active>
     </menu-item>
     <menu-item>
         <label>ABOUT</label>
-        <link>/about.php</link>
+        <link>/php/about.php</link>
         <active>1</active>
     </menu-item>
 </user-menu>
