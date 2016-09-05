@@ -394,3 +394,15 @@
 [Sun Jul 24 01:03:40.519816 2016] [:error] [pid 28352] [client 127.0.0.1:46516] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 11
 [Sun Jul 24 01:05:06.881486 2016] [:error] [pid 28293] [client 127.0.0.1:46582] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 11
 [Sun Jul 24 01:14:34.407940 2016] [:error] [pid 3995] [client 127.0.0.1:46784] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 11
+[Sat Aug 06 20:09:09.276692 2016] [:error] [pid 4619] [client 127.0.0.1:46910] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 11
+[Sat Aug 06 20:09:10.417148 2016] [:error] [pid 6869] [client 127.0.0.1:46924] PHP Notice:  A session had already been started - ignoring session_start() in /home/ali/Dropbox/addresses/includes.php on line 8, referer: http://addresses.ali/
+[Sun Aug 14 16:20:51.793093 2016] [:error] [pid 4244] [client 127.0.0.1:36576] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 11
+[Sun Aug 14 16:20:54.116993 2016] [:error] [pid 6129] [client 127.0.0.1:36610] PHP Notice:  A session had already been started - ignoring session_start() in /home/ali/Dropbox/addresses/includes.php on line 8, referer: http://addresses.ali/
+[Sat Aug 20 22:09:33.380514 2016] [:error] [pid 23101] [client 127.0.0.1:34586] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 11
+[Sat Aug 20 22:09:35.593508 2016] [:error] [pid 23489] [client 127.0.0.1:34598] PHP Notice:  A session had already been started - ignoring session_start() in /home/ali/Dropbox/addresses/includes.php on line 8, referer: http://addresses.ali/
+[Mon Sep 05 00:29:20.059216 2016] [:error] [pid 4302] [client 127.0.0.1:55248] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 11
+[Mon Sep 05 00:29:22.530770 2016] [:error] [pid 4616] [client 127.0.0.1:55276] PHP Notice:  A session had already been started - ignoring session_start() in /home/ali/Dropbox/addresses/includes.php on line 8, referer: http://addresses.ali/
+[Mon Sep 05 00:44:30.544486 2016] [:error] [pid 5114] [client 127.0.0.1:55864] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 11
+[Mon Sep 05 00:44:30.665754 2016] [:error] [pid 5114] [client 127.0.0.1:55864] PHP Notice:  A session had already been started - ignoring session_start() in /home/ali/Dropbox/addresses/includes.php on line 8, referer: http://addresses.ali/
+[Mon Sep 05 00:44:50.266993 2016] [:error] [pid 5116] [client 127.0.0.1:55890] PHP Notice:  Undefined index: hash in /home/ali/Dropbox/addresses/index.php on line 11
+[Mon Sep 05 00:44:50.371510 2016] [:error] [pid 5116] [client 127.0.0.1:55890] PHP Notice:  A session had already been started - ignoring session_start() in /home/ali/Dropbox/addresses/includes.php on line 8, referer: http://addresses.ali/

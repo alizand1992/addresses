@@ -43,8 +43,10 @@ function display_profile_options() {
 function hide_profile_options() {
     menu_timer = setTimeout(function () {
         if (!($("#profile-menu-container").is(":hover") ||
-            $("#profile-button").is(":hover"))) {
-            $("#profile-menu-container").fadeOut(100);
+              $("#profile-button").is(":hover"))) {
+	    if (!($("#username").is(":focus") || $("#password").is(":focus"))) {
+		$("#profile-menu-container").fadeOut(100);
+	    }
         }
     }, 10);
 }
