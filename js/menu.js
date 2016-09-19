@@ -40,17 +40,7 @@ function display_profile_options() {
     });
 }
 
-var hideProfileOptions = function hide_profile_options() {
-    var profile_container = $("#profile-menu-container");
-    var profile_button = $("#profile-button");
-
-    $(document).on("mousemove", function (event) {
-        if (not_hover(profile))
-    }
-        if (!($("#profile-menu-container").is(":hover") ||
-            $("#profile-button").is(":hover"))) {
-    });
-
+function hide_profile_options() {
     menu_timer = setTimeout(function () {
         if (!($("#profile-menu-container").is(":hover") ||
               $("#profile-button").is(":hover"))) {
@@ -61,16 +51,6 @@ var hideProfileOptions = function hide_profile_options() {
             }
         }
     }, 10);
-}
-
-function within_boundary(object, mode) {
-    switch (mode) {
-        case 1:
-
-            break;
-        default:
-            break;
-    }
 }
 
 
