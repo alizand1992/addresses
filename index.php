@@ -26,7 +26,7 @@ try {
     <script src="js/main_adjust.js" type="text/javascript"></script>
 	<script src="js/menu.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
-
+    <script src="js/constants.js" type="text/javascript"></script>
     <!--  Stylesheets  -->
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/button.css"/>

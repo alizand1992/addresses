@@ -41,12 +41,13 @@ function login() {
     })
     .done (function (response) {
         var res = response.responseText.trim();
-        if (res == "5") {
+        if (res == INCORRECT_USER_PASS) {
             window.alert("The username or password was incorrect.");
             $("#username").val("");
             $("#password").val("");
         } else {
             $("#hash_id").val(res);
+            load_profile_menu();
         }
     });
 }
