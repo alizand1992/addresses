@@ -14,7 +14,7 @@ $query = "SELECT * FROM `users` WHERE username = '$username'";
 
 $res = $sql->query($query) or die($sql->error);
 
-if ($res->num_rows() != 1)
+if ($res->num_rows != 1)
     die ($INCORRECT_USER_PASS);
 
 if (sha1($password) != $res->fetch_assoc()[0]['password'])

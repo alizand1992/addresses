@@ -40,7 +40,7 @@ function login() {
         }
     })
     .done (function (response) {
-        var res = response.responseText.trim();
+        var res = response.responseText;
         if (res == INCORRECT_USER_PASS) {
             window.alert("The username or password was incorrect.");
             $("#username").val("");
