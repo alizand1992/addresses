@@ -6,7 +6,7 @@
  * Time: 7:04 PM
  */
 
-$hash = $_GET['hash'];
+$hash = $_SESSION['hash'];
 require_once ($_SERVER['DOCUMENT_ROOT'] . "/includes.php");
 
 $adminMenuFile = file_get_contents($ADMIN_MENU_PATH);
@@ -20,7 +20,7 @@ $adminMenu .= "
 	";
 
 foreach ($xmlObj->children() as $adminMenuItems) {
-	if ($adminMenuItems->active != 1)
+	if ($adminMenuItems->active == $INACTIVE)
 		continue;
 	$adminMenu .= "
 		<div class=\"profile-menu-items button\"

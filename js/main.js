@@ -33,7 +33,7 @@ function login() {
     }
 
     $.ajax ({
-        url: "process/user/login.php",
+        url: "process/users/login.php",
         date: {
             username: username,
             password: password

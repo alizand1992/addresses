@@ -17,7 +17,6 @@ require_once($server . "/process/validate_hash.php");
 
 // VARIABLES
 $ADMIN_MENU_PATH = $server . "/xml/menu/admin_menu.xml";
-$ADMIN_MENU_PATH = $server . "/xml/menu/admin_menu.xml";
 $USER_MENU_PATH = $server . "/xml/menu/user_menu.xml";
 $LOGIN_PAGE_PATH = $server . "/html/login_page.html";
 $SALT = "VampIreD!ari3s1957Cre@zy";
@@ -29,3 +28,7 @@ $SUCCESS = 1;
 $INCORRECT_USER_PASS = 5;
 $NOT_SIGNED_IN = 6;
 $USER_EXISTS = 10;
+
+//MENU CODES
+$ACTIVE = 1;
+$INACTIVE = 0;

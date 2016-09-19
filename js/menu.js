@@ -77,7 +77,7 @@ function load_profile_menu() {
             }
 
             $.ajax({
-                url: process/menu/load_admin_user_menu.php
+                url: "process/menu/load_admin_user_menu.php"
             })
             .done (function (response) {
                 var res = response.responseText.trim();
@@ -86,6 +86,8 @@ function load_profile_menu() {
                     window.location.href = "/";
                     return;
                 }
+
+                $("#profile-menu-container").innerHTML = res;
             });
         });
     });
